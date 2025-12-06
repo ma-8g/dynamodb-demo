@@ -1,0 +1,21 @@
+[
+  {
+    "id": "user001",
+    "name": "藤原拓海",
+    "email": "fujiwara@example.com",
+    "age": 28
+  },
+  {
+    "id": "user002",
+    "name": "佐藤花子",
+    "email": "sato@example.com",
+    "age": 32
+  },
+  {
+    "id": "user003",
+    "name": "鈴木一郎",
+    "email": "suzuki@example.com",
+    "age": 25
+  }
+]
+
