@@ -43,27 +43,21 @@ docker-compose up -d
 3. UIからテーブルを作成
 
 ## DynamoDBテーブルへのデータ登録方法
-### 以下の JSON を POSTMAN で1件ずつ登録する。（配列のまま複数同時登録は不可）
+### サンプルデータ（sample_user.json）を POSTMAN で1件ずつ登録する。（配列のまま複数同時登録は不可）
 
+## DynamoDB でサポートされるデータ型
+　[⇒Amazon DynamoDB でサポートされるデータ型と命名規則](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/HowItWorks.NamingRulesDataTypes.html)
+### データ型記述子
 ```
-[
-  {
-    "id": "user001",
-    "name": "山田太郎",
-    "email": "yamada@example.com",
-    "age": 28
-  },
-  {
-    "id": "user002",
-    "name": "佐藤花子",
-    "email": "sato@example.com",
-    "age": 32
-  },
-  {
-    "id": "user003",
-    "name": "鈴木一郎",
-    "email": "suzuki@example.com",
-    "age": 25
-  }
-]
+DynamoDB データ型記述子の一覧を次に示します。
+S — 文字列
+N — 数値
+B — バイナリ
+BOOL — ブール
+NULL — Null
+M — マップ
+L — リスト
+SS — 文字列セット（コンパイルエラーになるのでサンプルデータ未作成）
+NS — 数値セット
+BS — バイナリセット（コンパイルエラーになるのでサンプルデータ未作成）
 ```

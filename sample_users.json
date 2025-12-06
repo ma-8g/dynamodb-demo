@@ -3,19 +3,94 @@
     "id": "user001",
     "name": "藤原拓海",
     "email": "fujiwara@example.com",
-    "age": 28
+    "age": 28,
+    "phoneNumber": "090-1234-5678",
+    "score": 1250,
+    "profileImage": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+    "isActive": true,
+    "middleName": null,
+    "preferences": {
+      "theme": "dark",
+      "language": "ja",
+      "notificationsEnabled": true,
+      "itemsPerPage": 20
+    },
+    "hobbies": [
+      {
+        "name": "ドライブ",
+        "category": "スポーツ",
+        "yearsOfExperience": 10
+      },
+      {
+        "name": "写真",
+        "category": "アート",
+        "yearsOfExperience": 5
+      }
+    ],
+    "favoriteNumbers": [7, 13, 28, 42],
+    "updatedAt": "2024-12-06T10:30:00Z"
   },
   {
     "id": "user002",
     "name": "佐藤花子",
     "email": "sato@example.com",
-    "age": 32
+    "age": 32,
+    "phoneNumber": "080-2345-6789",
+    "score": 980,
+    "profileImage": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+    "isActive": true,
+    "middleName": "美咲",
+    "preferences": {
+      "theme": "light",
+      "language": "ja",
+      "notificationsEnabled": false,
+      "itemsPerPage": 10
+    },
+    "hobbies": [
+      {
+        "name": "読書",
+        "category": "文化",
+        "yearsOfExperience": 15
+      },
+      {
+        "name": "料理",
+        "category": "生活",
+        "yearsOfExperience": 8
+      },
+      {
+        "name": "ヨガ",
+        "category": "健康",
+        "yearsOfExperience": 3
+      }
+    ],
+    "favoriteNumbers": [3, 8, 21],
+    "updatedAt": "2024-12-06T11:15:00Z"
   },
   {
     "id": "user003",
     "name": "鈴木一郎",
     "email": "suzuki@example.com",
-    "age": 25
+    "age": 25,
+    "phoneNumber": "070-3456-7890",
+    "score": 750,
+    "profileImage": null,
+    "isActive": false,
+    "middleName": null,
+    "preferences": {
+      "theme": "auto",
+      "language": "en",
+      "notificationsEnabled": true,
+      "itemsPerPage": 50
+    },
+    "hobbies": [
+      {
+        "name": "プログラミング",
+        "category": "技術",
+        "yearsOfExperience": 7
+      }
+    ],
+    "favoriteNumbers": [1, 2, 3, 5, 8, 13],
+    "updatedAt": "2024-12-06T12:00:00Z"
   }
 ]
 
