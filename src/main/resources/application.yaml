@@ -8,4 +8,6 @@ spring:
         table-prefix: 
       region: 
         static: ap-northeast-1
-
+      credentials:
+        access-key: dummy
+        secret-key: dummy

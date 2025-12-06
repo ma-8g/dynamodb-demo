@@ -11,5 +11,3 @@ spring:
       credentials:
         access-key: dummy
         secret-key: dummy
-
-
